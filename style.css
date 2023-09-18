@@ -43,6 +43,12 @@ header {
   height: 36px;
   color: palevioletred;
 }
+.mint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
 .mint_btn {
   background-color: transparent;
   border: 1px solid #ededed;

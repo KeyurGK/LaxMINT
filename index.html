@@ -9,23 +9,33 @@
       href="https://api.fontshare.com/v2/css?f[]=array@400&f[]=boxing@400&f[]=tanker@400&f[]=striper@400&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"
+      type="application/javascript"
+    ></script>
   </head>
   <body>
+    <script src="script.js" defer></script>
+
     <header>LaxMINT</header>
     <div class="details">
       <div class="details_name">
         <p>Token Name</p>
-        <input type="text" placeholder="Enter the Token name" />
+        <input type="text" placeholder="Enter the Token name" id="token_name" />
       </div>
       <div class="details_symbol">
         <p>Token Symbol</p>
-        <input type="text" placeholder="Enter the Token symbol" />
+        <input
+          type="text"
+          placeholder="Enter the Token symbol"
+          id="token_symbol"
+        />
       </div>
       <div class="details_supply">
         <p>Token Supply</p>
-        <input type="number" />
+        <input type="number" id="token_supply" />
       </div>
     </div>
-    <button class="mint_btn">MINT</button>
+    <div class="mint"><button class="mint_btn">MINT</button></div>
   </body>
 </html>
