@@ -1,4 +1,4 @@
-const MintContractAddr = "0x49b14295Aef9F9f24f7a7b9797FAc67D4199B083";
+const MintContractAddr = "0xCD95782606aE922e22A21481a564aa64488C06f5";
 const MintContractABI = [
   {
     inputs: [

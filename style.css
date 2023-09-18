@@ -60,4 +60,29 @@ header {
 .mint_btn:hover {
   background-color: palevioletred;
   color: #ededed;
+  cursor: pointer;
+}
+@media (min-width: 769px) {
+  header {
+    height: 64px;
+
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .details {
+    height: 50%;
+    flex-direction: row;
+  }
+  .details > div > p {
+    font-size: 36px;
+  }
+  .details > div > input {
+    width: 80%;
+    height: 60px;
+  }
+  .mint_btn {
+    width: 10vw;
+  }
 }
