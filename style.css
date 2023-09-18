@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+header {
+  height: 44px;
+  color: palevioletred;
+  font-size: 30px;
+  border-bottom: 1px solid #ededed;
+  text-align: center;
+}
+.details {
+  border-radius: 10px;
+  margin: 0 5%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.details > div {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details > div > p {
+  color: white;
+
+  font-size: 28px;
+  font-family: "Striper", sans-serif;
+  color: rgb(166, 219, 21);
+}
+.details > div > input {
+  background-color: transparent;
+  text-align: center;
+
+  width: 80%;
+  border: 1px solid #ededed;
+  height: 36px;
+  color: palevioletred;
+}
+.mint_btn {
+  background-color: transparent;
+  border: 1px solid #ededed;
+  width: 40vw;
+  height: 60px;
+  color: palevioletred;
+  font-size: 28px;
+}
+.mint_btn:hover {
+  background-color: palevioletred;
+  color: #ededed;
+}
